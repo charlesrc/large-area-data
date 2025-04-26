@@ -15,6 +15,7 @@ Data for "Large-scale self-assembled nanophotonic scintillators for X-ray imagin
 - To generate the plot shown in Fig. 4c-d and inset in Fig. 4g, run Figure 4/AFM/`2d-fourier-fit-afm.ipynb` (Python Jupyter notebook)
 - To generate the plot shown in Fig. 4f, run Figure 4/Experiment/
 - To generate the plot shown in Fig. 4g, run Figure 4/Theory/`plot_rms.m` (Matlab)
+- To calculate the effective depths used in Fig. 4, run Figure 4/`effective-depth.ipynb` (Python Jupyter notebook)
 
 # How to cite
 `@article{martin2024large,
