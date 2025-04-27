@@ -5,17 +5,22 @@ Data for "Large-scale self-assembled nanophotonic scintillators for X-ray imagin
 ## Python
 Install packages needed to run all notebooks with the following command in the main folder: `pip freeze > requirements.txt`
 
-# Figure 2 
+## Matlab
+List of required packages
+
+# Figures
+
+## Figure 2 
 - To generate the plot shown in Fig. 2a, run Figure 2/Experiment/EL/`plotLineProfileSample1.m`(Matlab)
 - To generate the plot shown in Fig. 2b, Figure 2/Theory/EL/`For_figure_2_sample2.m` (Matlab) [This requires manual selection of sample boundaries -- see color in Fig. 2 of the manuscript for indication.]
 - To generate the plot shown in Fig. 2c, Figure 2/Experiment/IL/`plotLineProfileSample2.m` (Matlab) [This requires manual selection of sample boundaries -- see color in Fig. 2 of the manuscript for indication.]
 - To generate the plot shown in Fig. 2d, Figure 2/Theory/IL/`For_figure_2_sample2.m` (Matlab)
 - To generate the plot shown in Fig. 2e, run Figure 2/Benchmark/`benchmark.ipynb` (Python Jupyter notebook)
 
-# Figure 3
+## Figure 3
 - To generate images from Fig. 3, run Figure 3/`quickFFC.m` (Matlab) and follow instructions
  
-# Figure 4
+## Figure 4
 - To generate the plot shown in Fig. 4c-d and inset in Fig. 4g, run Figure 4/AFM/`2d-fourier-fit-afm.ipynb` (Python Jupyter notebook)
 - To generate the plot shown in Fig. 4f, run Figure 4/Experiment/
 - To generate the plot shown in Fig. 4g, run Figure 4/Theory/`plot_rms.m` (Matlab)
