@@ -1,0 +1,23 @@
+# Figure 2 – Light Extraction Enhancement
+
+This folder contains experimental and theoretical data used to generate Figure 2 in the paper
+_"Large-scale self-assembled nanophotonic scintillators for X-ray imaging"
+
+## Folder Structure
+- `Experiment/EL/`: Electroluminescence (EL) data (structured sample)
+- `Experiment/IL/`: Incident Light (IL) data (flat/unstructured sample)
+- `Theory/EL/`: RCWA simulations for structured EL samples
+- `Theory/IL/`: RCWA simulations for IL samples
+- `Benchmark/`: Benchmark between experiment and theory
+
+## Quick Start
+1. Run `make_figure2.m` to reproduce all plots automatically if MATLAB is available.
+2. Alternatively, run each script separately following the order:
+    - Extract line profiles from `raw_EL_image_sample1.tif` and `raw_IL_image_sample2.tif`.
+    - Plot theoretical RCWA results using `For_figure_2_sample1.m` and `For_figure_2_sample2.m`.
+    - Benchmark experimental vs theoretical profiles using `benchmark.ipynb`.
+
+## Notes
+- All experimental raw images are TIFF format and examples are included.
+- All RCWA simulations assume normal incidence, TE polarization, refractive indices detailed inside `simulation_notes.md` files.
+
