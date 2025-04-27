@@ -1,0 +1,9 @@
+# Chicken Foot Imaging Data
+
+This folder contains flat-field corrected X-ray images of chicken joints and nails. Imaging was performed at 30kVp and 2W, with varying magnifications and exposures.
+
+**Contents:**
+- Chicken joints low-magnification images
+- Chicken nails high- and low-magnification images
+
+All images corrected for flat-field artifacts.
