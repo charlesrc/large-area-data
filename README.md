@@ -1,6 +1,10 @@
 # Data repository for "Large-scale self-assembled nanophotonic scintillators for X-ray imaging" 
 Data for "Large-scale self-assembled nanophotonic scintillators for X-ray imaging" by Louis Martin-Monier et al. (arXiv:2410.07141).
 
+# Requirements
+## Python
+Install packages needed to run all notebooks with the following command in the main folder: `pip freeze > requirements.txt`
+
 # Figure 2 
 - To generate the plot shown in Fig. 2a, run Figure 2/Experiment/EL/`plotLineProfileSample1.m`(Matlab)
 - To generate the plot shown in Fig. 2b, Figure 2/Theory/EL/`For_figure_2_sample2.m` (Matlab) [This requires manual selection of sample boundaries -- see color in Fig. 2 of the manuscript for indication.]
