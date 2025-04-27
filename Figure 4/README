@@ -1,0 +1,55 @@
+# Figure 4 – Experimental and Theoretical Data
+
+This folder contains all data and scripts necessary to reproduce Figure 4 of the project. Figure 4 compares experimental measurements of surface morphology and optical response with theoretical predictions.
+
+## Folder structure
+
+- AFM/
+  - Processed Atomic Force Microscopy (AFM) surface data.
+- Experiment/
+  - Raw and processed experimental measurements.
+- Theory/
+  - Theoretical simulation results.
+- effective-depth.ipynb
+  - Jupyter Notebook for post-processing depth-related data.
+- yagce.csv
+  - Optical constants (n, k) for Cerium-doped Yttrium Aluminum Garnet (Ce:YAG).
+
+## File descriptions
+
+### AFM/
+- `processed_afm_data.mat`: MATLAB `.mat` file containing processed AFM topography data.
+
+### Experiment/
+- `raw_data/`: Contains raw experimental measurements.
+- `processed_data/`: Contains cleaned and processed versions of experimental data ready for analysis.
+
+### Theory/
+- Various `.mat` files containing theoretical calculations of optical properties.
+
+### effective-depth.ipynb
+- Jupyter Notebook that processes AFM and experimental data to compute effective depth parameters for optical simulations.
+- Note: Please add introductory markdown cells explaining the notebook steps for clarity.
+
+### yagce.csv
+- CSV file listing optical constants for Ce:YAG.
+
+## How to reproduce the analysis
+
+1. Open `effective-depth.ipynb` in Jupyter Notebook.
+2. Follow the cells to process experimental data and calculate effective depth parameters.
+3. Use MATLAB to inspect `.mat` files and compare theory with experimental results.
+
+## Software requirements
+
+- Python 3.x
+- numpy, pandas, matplotlib
+- MATLAB R2020a or newer
+- Jupyter Notebook
+
+## Notes
+
+- `.DS_Store` and `.ipynb_checkpoints/` files are automatically generated and not relevant to the project.
+- Some assumptions (such as simulation parameters and experimental conditions) are described in the main text of the publication.
+- Additional metadata (e.g., AFM acquisition settings) could be added for completeness.
+
