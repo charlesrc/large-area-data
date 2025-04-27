@@ -1,0 +1,18 @@
+# Figure 3 — Imaging Data
+
+This folder contains imaging data used to generate Figure 3 of the main paper, covering biological and electronic samples.
+
+## Structure
+- `Chicken Foot/` : Imaging data of chicken joints and nails.
+- `USB Flash Drive/` : Imaging data of USB flash drives at various settings.
+
+## Quick Start
+View the `.pdf` files to inspect flat-field corrected X-ray images.
+
+## Contents
+- `metadata_summary.txt`: Summary of imaging parameters for each sample.
+- `figure_panel_mapping.txt`: How images correspond to figure panels.
+
+## Notes
+- Imaging parameters (voltage, power, binning, exposure) are included in filenames.
+- Original raw data is not included here; only processed images are provided.
