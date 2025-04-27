@@ -3,7 +3,8 @@ Data for "Large-scale self-assembled nanophotonic scintillators for X-ray imagin
 
 # Requirements
 ## Python
-Install packages needed to run all notebooks with the following command in the main folder: `pip freeze > requirements.txt`
+Install packages needed to run all notebooks with the following command in the main folder
+`pip freeze > requirements.txt`
 
 ## Matlab
 List of required packages
