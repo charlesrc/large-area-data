@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-02-24T09:16:28.576146</dc:date>
+    <dc:date>2025-04-27T18:31:16.418520</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.7.5, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.10.1, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -37,9 +37,9 @@ L 13.5 12.96
 z
 " style="fill: #ffffff"/>
    </g>
-   <g id="PolyCollection_1">
+   <g id="FillBetweenPolyCollection_1">
     <defs>
-     <path id="m9a848a8e31" d="M 13.5 -11.88 
+     <path id="mfbd55e9b7e" d="M 13.5 -11.88 
 L 13.5 -11.890968 
 L 13.920603 -11.901936 
 L 14.341206 -11.912904 
@@ -444,68 +444,68 @@ L 13.5 -11.88
 z
 " style="stroke: #000000; stroke-opacity: 0.3"/>
     </defs>
-    <g clip-path="url(#pd1a687b765)">
-     <use xlink:href="#m9a848a8e31" x="0" y="108" style="fill-opacity: 0.3; stroke: #000000; stroke-opacity: 0.3"/>
+    <g clip-path="url(#p927e22bafb)">
+     <use xlink:href="#mfbd55e9b7e" x="0" y="108" style="fill-opacity: 0.3; stroke: #000000; stroke-opacity: 0.3"/>
     </g>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="mbffb528229" d="M 0 0 
+       <path id="mb4be8ae902" d="M 0 0 
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.5"/>
       </defs>
       <g>
-       <use xlink:href="#mbffb528229" x="26.279102" y="96.12" style="stroke: #000000; stroke-width: 0.5"/>
+       <use xlink:href="#mb4be8ae902" x="26.279102" y="96.12" style="stroke: #000000; stroke-width: 0.5"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font: 20px 'Arial', sans-serif; text-anchor: middle" x="26.279102" y="117.435625" transform="rotate(-0 26.279102 117.435625)">−100</text>
+      <text style="font-size: 20px; font-family: 'Arial', sans-serif; text-anchor: middle" x="26.279102" y="117.435625" transform="rotate(-0 26.279102 117.435625)">−100</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#mbffb528229" x="79.398013" y="96.12" style="stroke: #000000; stroke-width: 0.5"/>
+       <use xlink:href="#mb4be8ae902" x="79.398013" y="96.12" style="stroke: #000000; stroke-width: 0.5"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font: 20px 'Arial', sans-serif; text-anchor: middle" x="79.398013" y="117.435625" transform="rotate(-0 79.398013 117.435625)">0</text>
+      <text style="font-size: 20px; font-family: 'Arial', sans-serif; text-anchor: middle" x="79.398013" y="117.435625" transform="rotate(-0 79.398013 117.435625)">0</text>
      </g>
     </g>
     <g id="text_3">
-     <text style="font: 20px 'Arial', sans-serif; text-anchor: middle" x="55.35" y="139.97" transform="rotate(-0 55.35 139.97)">Height (nm)</text>
+     <text style="font-size: 20px; font-family: 'Arial', sans-serif; text-anchor: middle" x="55.35" y="139.97" transform="rotate(-0 55.35 139.97)">Height (nm)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_3">
       <defs>
-       <path id="m9627fa7cd7" d="M 0 0 
+       <path id="m1eacb9e47b" d="M 0 0 
 L -3.5 0 
 " style="stroke: #000000; stroke-width: 0.5"/>
       </defs>
       <g>
-       <use xlink:href="#m9627fa7cd7" x="13.5" y="96.12" style="stroke: #000000; stroke-width: 0.5"/>
+       <use xlink:href="#m1eacb9e47b" x="13.5" y="96.12" style="stroke: #000000; stroke-width: 0.5"/>
       </g>
      </g>
      <g id="text_4">
-      <text style="font: 20px 'Arial', sans-serif; text-anchor: end" x="6.5" y="103.277812" transform="rotate(-0 6.5 103.277812)">0.00</text>
+      <text style="font-size: 20px; font-family: 'Arial', sans-serif; text-anchor: end" x="6.5" y="103.277812" transform="rotate(-0 6.5 103.277812)">0.00</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m9627fa7cd7" x="13.5" y="32.031302" style="stroke: #000000; stroke-width: 0.5"/>
+       <use xlink:href="#m1eacb9e47b" x="13.5" y="32.031302" style="stroke: #000000; stroke-width: 0.5"/>
       </g>
      </g>
      <g id="text_5">
-      <text style="font: 20px 'Arial', sans-serif; text-anchor: end" x="6.5" y="39.189114" transform="rotate(-0 6.5 39.189114)">0.05</text>
+      <text style="font-size: 20px; font-family: 'Arial', sans-serif; text-anchor: end" x="6.5" y="39.189114" transform="rotate(-0 6.5 39.189114)">0.05</text>
      </g>
     </g>
     <g id="text_6">
-     <text style="font: 20px 'Arial', sans-serif; text-anchor: middle" x="-40.396875" y="54.54" transform="rotate(-90 -40.396875 54.54)">Prob.</text>
+     <text style="font-size: 20px; font-family: 'Arial', sans-serif; text-anchor: middle" x="-40.396875" y="54.54" transform="rotate(-90 -40.396875 54.54)">Prob.</text>
     </g>
    </g>
    <g id="line2d_5">
@@ -543,7 +543,7 @@ L 89.208543 96.02125
 L 90.890955 96.113255 
 L 97.2 96.12 
 L 97.2 96.12 
-" clip-path="url(#pd1a687b765)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #000000"/>
+" clip-path="url(#p927e22bafb)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #000000"/>
    </g>
    <g id="patch_3">
     <path d="M 13.5 96.12 
@@ -568,7 +568,7 @@ L 97.2 12.96
   </g>
  </g>
  <defs>
-  <clipPath id="pd1a687b765">
+  <clipPath id="p927e22bafb">
    <rect x="13.5" y="12.96" width="83.7" height="83.16"/>
   </clipPath>
  </defs>
