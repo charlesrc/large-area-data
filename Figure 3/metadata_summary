@@ -1,0 +1,13 @@
+# Metadata Summary — Figure 3
+
+| Sample           | Voltage (kVp) | Power (W) | Exposure (s) | Binning | Magnification | Notes                |
+|------------------|---------------|-----------|--------------|---------|---------------|----------------------|
+| Chicken Joints   | 30            | 2         | 10.0         | 4       | Low           | Flat-field corrected |
+| Chicken Nails    | 30            | 2         | 10.0         | 4       | High          | Flat-field corrected |
+| Chicken Nails    | 30            | 2         | 10.0         | 4       | Low           | Flat-field corrected |
+| USB Drive 1      | 60            | 6.5       | 10.0         | N/A     | High          |                      |
+| USB Drive 1      | 80            | 8.5       | 10.0         | N/A     | High          |                      |
+| USB Drive 2      | 60            | 6.5       | 10.0         | N/A     | High          |                      |
+| USB Drive 2      | 80            | 8.5       | 10.0         | N/A     | High          |                      |
+| USB Drive General| 60            | 6.5       | 7.0          | N/A     | High          | Flat-field corrected |
+| USB Drive General| 60            | 6.5       | 7.0          | N/A     | Low           | Flat-field corrected |
