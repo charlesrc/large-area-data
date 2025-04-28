@@ -21,8 +21,31 @@ This folder contains all data and scripts necessary to reproduce Figure 4 of the
 - `processed_afm_data.mat`: MATLAB `.mat` file containing processed AFM topography data.
 
 ### Experiment/
-- `raw_data/`: Contains raw experimental measurements.
-- `processed_data/`: Contains cleaned and processed versions of experimental data ready for analysis.
+- `raw_data/`: Contains raw experimental images. The two subfolders, to be described below, are organized in the same way.
+  - `EL/` or `IL/`: raw data for the EL and IL samples described in the paper.
+    - `flat-field-corrected\`: flat-field-corrected images of the razor blade used for spatial resolution analysis.
+    - `high-magnificaiton\`: raw images of the razor blade taken at "high" geometric magnification (2.0x).
+    - `low-magnificaiton\`: raw images of the razor blade taken at "low" geometric magnification (1.3x).
+      - `90-kVp/`, `120-kVp/`, and `150-kVp`: raw images for each energy setting.
+- `processed_data/`: Contains processed spatial resolution line profiles to be analyzed. Patterned and unpatterned regions are stored in separate files.
+  - `EL/` or `IL/`: processed data for the EL and IL samples described in the paper.
+      - `high-magnificaiton\`: spatial resolution profiles at "high" geometric magnification (2.0x).
+      - `low-magnificaiton\`: spatial resolution profiles at "low" geometric magnification (1.3x).
+        - `90-kVp/`, `120-kVp/`, and `150-kVp`: profiles for each energy setting.
+- `rois/`: `.mat` files containing the regions of interest used to generate spatial resolution line profiles in `processed_data/`.
+- `plotSpatialResolution.m`: script to plot the spatial resolution in three different styles (user is prompted to load data):
+  1. separate patterned and unpatterned plots for each sample;
+  2. a single plot with patterned and unpatterned in different plots (Fig. 4 in the main text); and
+  3. as a surface plot, showing the full 2-D region of interest from which the spatial resolution was computed.
+- `plotSpatialResolution_sample1.m`: script to generate Fig. 4.e. in the main text.
+- `plotSpatialResolution_sample3.m`: script to generate Fig. 4.f. in the main text.
+- `spatialResolution.m`: script to generate a spatial resolution line profile and fit the ESF to it. The user should
+                         follow the instructions and can either draw their own ROIs to fit or load pre-generated ones.
+- `shadedErrorBar.m`: function from MATLAB File Exchange. Credited to Rob Campbell. See here (https://www.mathworks.com/matlabcentral/fileexchange/26311-raacampbell-shadederrorbar)
+                      and here (https://github.com/raacampbell/shadedErrorBar).
+- `beerlamberlaw.m`: script to generate the Beer-Lambert law plot in Fig. S11 in the SI. The user is prompted to
+                     choose the edge of the razor blade; use the figure as a guide.
+- `nlparcise.m`: modified version of the MATLAB built-in function nlparci that also returns standard error.
 
 ### Theory/
 - Various `.mat` files containing theoretical calculations of optical properties.
