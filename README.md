@@ -7,7 +7,8 @@ Install packages needed to run all notebooks with the following command in the m
 `pip freeze > requirements.txt`
 
 ## Matlab
-List of required packages
+Download shadedErrorBar from MATLAB File Exchange: https://www.mathworks.com/matlabcentral/fileexchange/26311-raacampbell-shadederrorbar
+Credit to Rob Campbell.
 
 # Figures
 
@@ -23,9 +24,12 @@ List of required packages
  
 ## Figure 4
 - To generate the plot shown in Fig. 4c-d and inset in Fig. 4g, run Figure 4/AFM/`2d-fourier-fit-afm.ipynb` (Python Jupyter notebook)
-- To generate the plot shown in Fig. 4f, run Figure 4/Experiment/
+- To generate the plot shown in Fig. 4e, run Figure 4/Experiment/`plotSpatialResolution_sample1.m` (Matlab)
+- To generate the plot shown in Fig. 4f, run Figure 4/Experiment/`plotSpatialResolution_sample2.m` (Matlab)
 - To generate the plot shown in Fig. 4g, run Figure 4/Theory/`plot_rms.m` (Matlab)
 - To calculate the effective depths used in Fig. 4, run Figure 4/`effective-depth.ipynb` (Python Jupyter notebook)
+- Spatial resolution plotted in SI is also available and can be plotted using Figure 4/Experiment/`plotSpatialResolution.m` (Matlab)
+- The Beer-Lambert law calculations in the SI can be plotted using Figure 4/Experiment/`beerlambertlaw.m`
 
 # How to cite
 `@article{martin2024large,
